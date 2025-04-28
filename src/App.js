@@ -1,8 +1,8 @@
-import React from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import Main from './components/Main/Main';
-import Room from './components/Room/Room'
-import styled from 'styled-components';
+import React from "react";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import Main from "./components/Main/Main";
+import Room from "./components/Room/Room";
+import styled from "styled-components";
 
 function App() {
   return (
@@ -30,3 +30,8 @@ const AppContainer = styled.div`
 `;
 
 export default App;
+
+/*
+Baje la version de node a 16.20.2 - v actual mia de node es v20.1.0
+En el package.json cambie el proxy  "proxy": "http://localhost:3001"
+*/
