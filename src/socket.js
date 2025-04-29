@@ -1,7 +1,7 @@
 import io from "socket.io-client";
 // const sockets = io('http://localhost:3001', { autoConnect: true, forceNew: true });
 // const sockets = io("/");
-const sockets = io("https://server-socket-videocall.vercel.app", {
+const sockets = io("https://server-socket-videocall-1.onrender.com", {
   transports: ["websocket", "polling"],
 });
 
